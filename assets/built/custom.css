@@ -1,0 +1,25 @@
+.main-post-content img {
+	cursor: -webkit-zoom-in;
+	cursor: zoom-in;
+}
+
+.main-post-content pre {
+	padding: 0;
+}
+
+.main-post-content pre code {  
+    padding: 1em;
+}
+
+.main-post-content pre code.nobreak  {  
+    word-wrap: normal;
+    white-space: pre;
+}
+
+.main-post-content a {
+	color: #5ba4e5;	
+}
+
+.main-post-content a:visited {
+	color: #307abb;	
+}

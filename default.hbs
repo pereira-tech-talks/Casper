@@ -13,6 +13,10 @@
 
     {{!-- Styles'n'Scripts --}}
     <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "built/custom.css"}}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/hybrid.min.css">
 
     {{!-- This tag outputs SEO meta+structured data and other important settings --}}
     {{ghost_head}}
@@ -62,12 +66,17 @@
         crossorigin="anonymous">
     </script>
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
-
+    {{!-- Hightligth code --}}
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    {{!-- Script for open images in popups --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    
     {{#if pagination.pages}}
     <script>
         var maxPages = parseInt('{{pagination.pages}}');
     </script>
     <script src="{{asset "js/infinitescroll.js"}}"></script>
+    <script src="{{asset "js/index.js"}}"></script>
     {{/if}}
 
     {{!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. --}}
