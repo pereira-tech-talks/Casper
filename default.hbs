@@ -13,6 +13,7 @@
 
     {{!-- Styles'n'Scripts --}}
     <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "built/bootstrap-grid.min.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "built/custom.css"}}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -70,7 +71,7 @@
     {{!-- Script for open images in popups --}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <script src="{{asset "js/index.js"}}"></script>
-    
+
     {{#if pagination.pages}}
     <script>
         var maxPages = parseInt('{{pagination.pages}}');

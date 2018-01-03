@@ -23,3 +23,7 @@
 .main-post-content a:visited {
 	color: #307abb;	
 }
+
+.site-description {
+	font-weight: bold;
+}
