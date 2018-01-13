@@ -32,3 +32,7 @@
 .post-full-content h1, .post-full-content h2, .post-full-content h3, .post-full-content h4, .post-full-content h5, .post-full-content h6 {
 	margin-bottom: .8em;
 }
+
+.post-full-content img {
+	margin: 1em auto;
+}
