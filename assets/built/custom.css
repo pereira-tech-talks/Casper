@@ -1,7 +1,3 @@
-h1, h2, h3, h4, h5, h6 {
-    margin: 1.5em 0 1.5em 0;
-}
-
 .main-post-content img {
 	cursor: -webkit-zoom-in;
 	cursor: zoom-in;
@@ -31,4 +27,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .site-description {
 	font-weight: bold;
+}
+
+.post-full-content h1, .post-full-content h2, .post-full-content h3, .post-full-content h4, .post-full-content h5, .post-full-content h6 {
+	margin-bottom: .8em;
 }
