@@ -2,6 +2,11 @@
 	opacity: 1;
 }
 
+.site-header::before {
+	background: rgba(0, 0, 0, 0.4);
+}
+
+
 .nav li a:hover {
 	text-decoration: underline;
 }
