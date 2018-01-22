@@ -1,5 +1,6 @@
 .nav li a {
 	opacity: 1;
+	font-weight: bold;
 }
 
 .site-header::before {
@@ -63,6 +64,15 @@
 
 .post-full-content img {
 	margin: 1em auto;
+}
+
+.site-header-content .author-bio {
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.site-header-content .site-title {
+	margin-bottom: 20px;
 }
 
 
