@@ -67,7 +67,7 @@
 }
 
 .site-header-content .author-bio {
-	font-weight: bold;
+	font-weight: bold !important;
 	margin-bottom: 15px;
 }
 
