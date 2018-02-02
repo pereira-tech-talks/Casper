@@ -7,8 +7,6 @@
 	text-decoration: underline;
 }
 
-
-
 .site-header::before {
 	background: rgba(0, 0, 0, 0.4);
 }
@@ -147,7 +145,7 @@ iframe {
 	.site-header .responsive-arrow {
 		display: block;
 		position: absolute;
-		bottom: 2px;
+		top: 38px;
 		right: 5px;
 		color: white;
 		font-size: 14px;
