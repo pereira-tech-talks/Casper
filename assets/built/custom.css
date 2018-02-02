@@ -1,6 +1,5 @@
 .main-post-content img {
-	cursor: -webkit-zoom-in;
-	cursor: zoom-in;
+	cursor: pointer;
 	max-width: 100%;
 }
 
@@ -27,4 +26,8 @@
 
 .site-description {
 	font-weight: bold;
+}
+
+iframe {
+	width: 100%;
 }
