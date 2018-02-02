@@ -1,3 +1,26 @@
+.nav li a {
+	opacity: 1;
+	font-weight: bold;
+}
+
+.site-header::before {
+	background: rgba(0, 0, 0, 0.4);
+}
+
+
+.nav li a:hover {
+	text-decoration: underline;
+}
+
+.site-logo {
+	max-height: 60px;
+	margin-bottom: 0.6em;
+}
+
+.post-card .post-card-image {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
 .main-post-content img {
 	cursor: pointer;
 	max-width: 100%;
@@ -28,6 +51,102 @@
 	font-weight: bold;
 }
 
+.post-full-content h1, .post-full-content h2, .post-full-content h3, .post-full-content h4, .post-full-content h5, .post-full-content h6 {
+	margin-bottom: .8em;
+}
+
+.post-full-content h5 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	width: 100%;
+}
+
+.post-full-content img {
+	margin: 1em auto;
+}
+
+.site-header-content .author-bio {
+	font-weight: bold !important;
+	margin-bottom: 15px;
+}
+
+.site-header-content .site-title {
+	margin-bottom: 20px;
+}
+
 iframe {
 	width: 100%;
+}
+
+/*
+ * MEDIA QUERYS
+ *
+ * Tiny grid  devices Phones  (<=400px) = .col-*
+ * Extra small grid  devices Phones  (<=576px) = .col-*
+ * Small grid  devices Phones  (<=768px) = .col-sm-*
+ * Regular grid devices Tablets (≥768px) = .col-md-*
+ * Medium grid devices Desktops  (≥992px) = .col-lg-*
+ * Large grid devices Desktops  (≥1200px) = .col-xl-*
+ * Extra large grid deivces desktop (≥1400px)
+ */
+
+/* Breakpoint: x >= 1400 */
+@media (min-width: 1400px) {
+
+}
+
+/* Breakpoint: x <= 1399 */
+@media (max-width: 1399px) {
+
+}
+
+
+/* Breakpoint: 1200 >= x <= 1399px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+/* Breakpoint: x >= 1200 */
+@media (min-width: 1200px) {
+
+}
+
+/* Breakpoint: x <= 1199 */
+@media (max-width: 1199px) {
+
+}
+
+/* Breakpoint: 992 >= x <= 1199 */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Breakpoint: x >= 992 */
+@media (min-width: 992px) {
+
+}
+
+/* Breakpoint: x <= 991 */
+@media (max-width: 991px) {
+
+}
+
+/* Breakpoint: 768 >= x <= 991 */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Breakpoint: x <= 767 */
+@media (max-width: 767px) {
+
+}
+
+/* Breakpoint: x < 575 */
+@media (max-width: 575px) {
+
+}
+
+/* Breakpoint: x <= 399 */
+@media (max-width: 399px) {
+
 }
