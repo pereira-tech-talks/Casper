@@ -22,8 +22,7 @@
 }
 
 .main-post-content img {
-	cursor: -webkit-zoom-in;
-	cursor: zoom-in;
+	cursor: pointer;
 	max-width: 100%;
 }
 
@@ -75,6 +74,9 @@
 	margin-bottom: 20px;
 }
 
+iframe {
+	width: 100%;
+}
 
 /*
  * MEDIA QUERYS
