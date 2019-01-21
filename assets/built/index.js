@@ -1,0 +1,2 @@
+!function(i,t){"use strict";i(document).ready(function(){for(var t=i(".main-post-content img"),e=0;e<t.length;e++)t[e].setAttribute("href",t[e].src);i(".main-post-content img").magnificPopup({type:"image",gallery:{enabled:!0}});var n=i(".main-post-content a");for(e=0;e<n.length;e++)n[e].setAttribute("target","_blank");i(".main-post-content pre code").each(function(t,e){hljs.highlightBlock(e)})})}(jQuery);
+//# sourceMappingURL=index.js.map
